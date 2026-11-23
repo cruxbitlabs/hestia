@@ -1,0 +1,15 @@
+{
+  "author": {
+    "name": "Cruxbit Labs"
+  },
+  "description": "Keep your plans and to-dos in Hestia Todo: Claude saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up with Settings → Agent connections → Add to Claude.",
+  "homepage": "https://github.com/cruxbitlabs/hestia",
+  "keywords": [
+    "todo",
+    "tasks",
+    "planning",
+    "hestia"
+  ],
+  "name": "hestia-todo",
+  "version": "1.0.0"
+}
