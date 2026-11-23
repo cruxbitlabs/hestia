@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "description": "Keep your plans and to-dos in Hestia Todo: Claude saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up with Settings → Agent connections → Add to Claude.",
+      "description": "Keep your plans and to-dos in Hestia Todo: your AI saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up in Settings → Agent connections.",
       "name": "hestia-todo",
       "source": "./",
       "version": "1.0.0"

@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Cruxbit Labs LLC",
+    "url": "https://cruxbitlabs.com/"
+  },
+  "description": "Keep your plans and to-dos in Hestia Todo: your AI saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up in Settings → Agent connections.",
+  "homepage": "https://github.com/cruxbitlabs/hestia",
+  "interface": {
+    "brandColor": "#FF592F",
+    "brandColorDark": "#FF592F",
+    "capabilities": [],
+    "category": "Productivity",
+    "defaultPrompt": [
+      "Plan my week and save it in Hestia"
+    ],
+    "developerName": "Cruxbit Labs LLC",
+    "displayName": "Hestia Todo",
+    "logo": "./assets/icon.png",
+    "longDescription": "Keep your plans and to-dos in Hestia Todo: your AI saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up in Settings → Agent connections.",
+    "screenshots": [],
+    "shortDescription": "Keep your plans and to-dos in Hestia",
+    "websiteURL": "https://cruxbitlabs.com/"
+  },
+  "keywords": [
+    "todo",
+    "tasks",
+    "planning",
+    "hestia"
+  ],
+  "license": "LicenseRef-Proprietary",
+  "name": "hestia-todo",
+  "repository": "https://github.com/cruxbitlabs/hestia",
+  "skills": "./skills/",
+  "version": "1.0.0"
+}

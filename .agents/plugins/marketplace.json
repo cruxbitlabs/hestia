@@ -1,0 +1,22 @@
+{
+  "interface": {
+    "displayName": "Cruxbit Labs"
+  },
+  "name": "cruxbitlabs",
+  "plugins": [
+    {
+      "category": "Productivity",
+      "description": "Keep your plans and to-dos in Hestia Todo: your AI saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up in Settings → Agent connections.",
+      "displayName": "Hestia Todo",
+      "name": "hestia-todo",
+      "policy": {
+        "authentication": "ON_INSTALL",
+        "installation": "AVAILABLE"
+      },
+      "source": {
+        "path": "./",
+        "source": "local"
+      }
+    }
+  ]
+}

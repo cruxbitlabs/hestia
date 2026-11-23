@@ -7,6 +7,7 @@ agent, it saves the plan in Hestia instead of leaving it in the chat.
 - `skills/hestia-todo/SKILL.md`: the skill. It tells an agent when and how to use Hestia.
 - `rules/`: a short always-on rule, for tools that read one at every start.
 - `.claude-plugin/`: the same skill as a Claude plugin, for the Claude app and Claude Code.
+- `.codex-plugin/` and `.agents/plugins/`: the same skill as a Codex plugin, for Codex and the ChatGPT app.
 
 Nothing here holds a key, a path or a program. Every tool still needs the **Hestia app** on the computer: the app adds
 the `hestia-todo` connection to each tool and keeps its key in the computer's credential store.
@@ -34,7 +35,21 @@ Claude keeps skills in your Claude account, so they are added in Claude itself:
 /plugin install hestia-todo@cruxbitlabs
 ```
 
-## Codex, Gemini CLI, Grok Build and other agents that read skills
+## Codex (CLI, IDE and app) and the ChatGPT app
+
+```
+codex plugin marketplace add cruxbitlabs/hestia
+codex plugin add hestia-todo@cruxbitlabs
+```
+
+The ChatGPT desktop app shows the same plugin once the marketplace is added. In ChatGPT you can also upload the skill
+itself: **Skills → Create → Upload from your computer**, and pick the `skills/hestia-todo` folder.
+
+Codex in the ChatGPT app reads Codex's own settings, so adding **Codex** in the Hestia app connects it to your lists.
+ChatGPT's chat outside Codex isn't connected to Hestia yet: the skill tells it about Hestia, but it can't reach your
+lists.
+
+## Gemini CLI, Grok Build and other agents that read skills
 
 ```
 npx skills add cruxbitlabs/hestia -g
@@ -65,6 +80,11 @@ If a user asks you to set up Hestia Todo for you:
    exists, add Hestia's section at the end and leave everything else as it is.
 4. **From then on**, whenever the user plans, organises or wants to remember something they'll do, save it in Hestia
    as the skill describes, and tell them in a line or two what you saved.
+
+## License
+
+Proprietary: © 2026 Cruxbit Labs LLC. You may install these files into the AI tools you use with Hestia Todo; see
+[LICENSE](LICENSE) for the terms. The icon and the names "Hestia" and "Hestia Todo" are Cruxbit Labs LLC's.
 
 ## About these files
 

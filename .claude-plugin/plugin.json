@@ -1,15 +1,19 @@
 {
   "author": {
-    "name": "Cruxbit Labs"
+    "name": "Cruxbit Labs LLC",
+    "url": "https://cruxbitlabs.com/"
   },
-  "description": "Keep your plans and to-dos in Hestia Todo: Claude saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up with Settings → Agent connections → Add to Claude.",
+  "description": "Keep your plans and to-dos in Hestia Todo: your AI saves trips, bills, chores and projects there, not only in the chat. Needs the Hestia app, set up in Settings → Agent connections.",
   "homepage": "https://github.com/cruxbitlabs/hestia",
+  "icon": "./assets/icon.png",
   "keywords": [
     "todo",
     "tasks",
     "planning",
     "hestia"
   ],
+  "license": "LicenseRef-Proprietary",
   "name": "hestia-todo",
+  "repository": "https://github.com/cruxbitlabs/hestia",
   "version": "1.0.0"
 }
